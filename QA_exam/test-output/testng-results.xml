@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="273953" started-at="2019-11-16T10:08:35Z" finished-at="2019-11-16T10:13:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="273953" started-at="2019-11-16T10:08:35Z" finished-at="2019-11-16T10:13:09Z">
+      <class name="test_steps.ValidLogin_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test_steps.ValidLogin_Test@5c7fa833]" name="setUp" is-config="true" duration-ms="18081" started-at="2019-11-16T16:08:35Z" finished-at="2019-11-16T16:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LandingPage()[pri:1, instance:test_steps.ValidLogin_Test@5c7fa833]" name="LandingPage" duration-ms="151227" started-at="2019-11-16T16:08:53Z" finished-at="2019-11-16T16:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingPage -->
+        <test-method status="PASS" signature="LoginPage()[pri:2, instance:test_steps.ValidLogin_Test@5c7fa833]" name="LoginPage" duration-ms="636" started-at="2019-11-16T16:11:25Z" finished-at="2019-11-16T16:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="LoginWithPhone()[pri:3, instance:test_steps.ValidLogin_Test@5c7fa833]" name="LoginWithPhone" duration-ms="3790" started-at="2019-11-16T16:11:25Z" finished-at="2019-11-16T16:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithPhone -->
+        <test-method status="PASS" signature="VerifyOTP()[pri:4, instance:test_steps.ValidLogin_Test@5c7fa833]" name="VerifyOTP" duration-ms="18068" started-at="2019-11-16T16:11:29Z" finished-at="2019-11-16T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOTP -->
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:test_steps.ValidLogin_Test@5c7fa833]" name="SignOut" duration-ms="81292" started-at="2019-11-16T16:11:47Z" finished-at="2019-11-16T16:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_steps.ValidLogin_Test@5c7fa833]" name="tearDown" is-config="true" duration-ms="764" started-at="2019-11-16T16:13:08Z" finished-at="2019-11-16T16:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_steps.ValidLogin_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
