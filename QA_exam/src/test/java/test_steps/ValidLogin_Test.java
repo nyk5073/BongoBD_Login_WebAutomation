@@ -37,7 +37,6 @@ public class ValidLogin_Test {
 	@BeforeTest
 	public void setUp() throws Exception {
 		
-		base.initEnvironment();
 		driver=base.loadDriver("https://www.bongobd.com/bn");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -48,6 +47,7 @@ public class ValidLogin_Test {
 		
 		landing.guiVerification(driver);
 		driver.findElement(By.xpath(Xpaths.LandingPage.LoginButton)).click();
+		
 	}
 	
 	@Test (priority=2)
@@ -99,6 +99,7 @@ public class ValidLogin_Test {
 		driver.findElement(By.xpath(Xpaths.LoggedInPage.SignOutLink)).click();		
 		
 	}
+	
 	@AfterTest
     public void tearDown() {
     	driver.quit();
