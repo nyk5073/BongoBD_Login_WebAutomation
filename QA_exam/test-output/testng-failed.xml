@@ -6,4 +6,16 @@
       <class name="test_steps.ValidLogin_Test"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test_steps.ValidLogin_Test">
+        <methods>
+          <include name="SignOut"/>
+          <include name="setUp"/>
+          <include name="VerifyOTP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test_steps.ValidLogin_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
